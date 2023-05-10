@@ -3,7 +3,22 @@ Professor: Pedro Pisa
 Aluno: Rodrigo Prado
 
 # Lista de Exercícios
-Usei spark para resolver os problemas apresentados.
+Documentação:
+- Explicação do passo a passo utilizado no código:
+Utilizei o colab e o spark para resolver os problemas apresentados. Como o dataset de 'customers_ratings.csv' é grande, eu preferi utilizar o spark para realizar as computações de merge, join, groupBy, devido ao ótimo processamento dessa tecnologia.
+A explicação da resolução está descrito em cada questão
+
+- Explicação de como executar o código do zero:
+Para executar o notebook, voce vai precisar do colab, o arquivo do notebook 'ComputacaoEmNuvem-RodrigoPrado.ipynb' e os arquivos csv (movies e customers_ratings). Como foi utilizado o pyspark, é necessário fazer a instalação das dependencias, mas essa instalação já está no primeiro passo do notebook.
+
+Passo-a-passo:
+1. Acessar o colab, https://colab.research.google.com/
+2. Abrir (Importar) o notebook 'ComputacaoEmNuvem-RodrigoPrado.ipynb'
+3. Na seção 'Arquivos' do colab, criar uma pasta chamada 'data' 
+4. Fazer o upload dos arquivos movies.csv e customers_ratings.csv na pasta 'data' (aguardar o upload completeo)
+5. Executar o notebook.
+
+O notebook está dividido em algumas seções: (1) Instalação e import de lisbs, (2) Leitura dos arquivos csv's e (3) resolução dos exercícios
 
 Sobre os dados
 
